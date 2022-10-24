@@ -33,6 +33,10 @@ p{
     transform: scale(1.05);
 }
 
+#welcome-header{
+    font-size: 210%;
+}
+
 .myMail{
     color: white;
 }
@@ -61,6 +65,7 @@ p{
     
 
 .hire-me-pill{
+    
     padding: 10px 20px;
     border-radius: 50px;
     background-color: rgb(78, 125, 255);
@@ -69,4 +74,16 @@ p{
 .hire-me-quote{
     font-size: 18px;
     font-style: italic;
+}
+
+
+@media (max-width: 1000px) {
+
+    p{
+        font-size: 90%;
+    }
+    .hire-me-pill{
+        font-size: 18px;
+    }
+
 }
