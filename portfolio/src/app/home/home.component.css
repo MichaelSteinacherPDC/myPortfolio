@@ -1,0 +1,68 @@
+p{
+    font-size: 110%;
+}
+
+.myHeadshot{
+    width: 100%;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.myHeadshot:hover{
+    transition: 1s;
+    border-radius: 100%;
+    /*
+    transform: scaleX(-1)
+    */
+}
+
+.welcome{
+    transition: 0.3s;
+    background-color: rgb(98, 148, 255);
+    padding: 10%;
+    height: 100%;
+    border-radius: 50px;
+    color: white;
+    border: 0 solid black;
+}
+.welcome:hover{
+    transition: 0.3s;
+    border: 3px solid black;
+}
+
+.myMail{
+    color: white;
+}
+.myMail:hover{
+    color: blue;
+}
+.first-sentence{
+    font-size: 120%;
+}
+
+.hire-me{
+    transition: 1s;
+    width: 80%;
+    background-color: rgb(98, 148, 255);
+    margin-left: 10%;
+    border-radius: 20px;
+    color: white;
+    
+}
+.hire-me:hover{
+    transition: 1s;
+    background-color: rgb(78, 134, 255);
+}
+
+    
+
+.hire-me-pill{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(78, 125, 255);
+}
+
+.hire-me-quote{
+    font-size: 18px;
+    font-style: italic;
+}
