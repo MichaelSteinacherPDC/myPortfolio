@@ -1,0 +1,111 @@
+/* HEADER START */
+
+.notification-count{
+    background-color: rgb(202, 0, 0);
+    border-radius: 100%;
+    width: 150%;
+    text-align: center;
+    color: white !important;
+}
+
+#bell{
+    filter: saturate(0%);
+}
+
+#hero-bg{
+    width:100%;
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    padding: 8% 0%;
+    filter: saturate(10%);
+}
+
+#hero-text{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* HEADER END */
+
+/* --------------------------------- */
+
+/* CARD CSS START*/
+#card-container{
+    margin: auto;
+    width: 80%;
+}
+
+#card-container #card-container-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    box-shadow: 5px 5px 5px rgb(120, 120, 120) !important;
+}
+
+.card .card-image{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+}
+
+.card .card-header-flex{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    color: white;
+    
+    
+}
+.card-header-flex .card-header-left{
+    background-color: rgb(0, 182, 182); 
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.card-header-flex .card-header-right{
+    color: black;
+    padding: 5px;
+}
+
+.card-icon{
+    font-size: 120%;
+}
+
+.priority{
+    color:white;
+}
+
+/* CARD CSS END*/
+
+/* --------------------------------- */
+
+/* FOOTER START */
+.socialmediaicons{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin:auto;
+    font-size: 225%;
+    filter: saturate(0%);
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 30%;
+}
+
+#mailInput{
+    width: 30%;
+}
+.bg-black{
+    background-color: black;
+}
+/* FOOTER END */

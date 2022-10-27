@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="test"></div>
+    <!-- HEADER START Navbar + Hero-Image -->
+    <header>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="navbar-toggler-icon"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="h5 nav-link active" href="#"><span class="logo">MyPlanner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" id="bell" href="#">&#x1F514;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link notification-count" href="#">1</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="hero-bg">
+            <span id="hero-text">
+                <span class="h1 bg-light border-secondary p-3 rounded">Weekly Planner</span>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+
+    <!-- CARD BODY START -->
+    <div id="card-container">
+        <div class="mt-3"id="card-container-head">
+            <span class="h3">Weekly Tasks</span>
+            <span class="h5">
+                Sort by priority: 
+                <a href="#" id="sortButton">&#9660;</a>
+            </span>
+        </div>
+        <!-- JAVASCRIPT INSERTION-->
+        <div id="card-rows" class="row mt-5 mb-5">
+                        
+        </div>
+    </div>
+    <!-- CARD BODY END -->
+
+
+    <!-- FOOTER START social-media-icons + newsletter-signup -->
+    <footer class="bg-dark text-center d-none">
+        <div class="socialmediaicons pt-3">
+            <a href="#" class="fa fa-facebook-square"></a>
+            <a href="#" class="fa fa-twitter-square"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin-square"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        <div id="newslettertop" class="pt-3 pb-3">
+            <span class="text-white">Sign up for our newsletter</span>
+            <input id="mailInput" type="text" placeholder="yourMail@service.com">
+            <button type="button" class="btn btn-dark subscribeButton">Subscribe</button>
+        </div>
+        
+        <div class="text-center bg-black text-white pt-3 pb-3">
+            © Copyright 2022 Michael Steinacher
+        </div>
+        
+    </footer>
+    <!-- FOOTER END-->
+    <script src="js/data.json"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

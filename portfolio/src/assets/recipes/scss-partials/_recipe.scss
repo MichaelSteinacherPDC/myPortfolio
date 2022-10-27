@@ -1,0 +1,80 @@
+/* RECIPE OF THE MONTH AND ALL OTHER FOOD NAV PAGES */
+
+.recipe-container{
+    display: flex;
+    
+    margin-left: 4%;
+    margin-top: 4%;
+    img{
+        display: block;
+        width: 45%;
+        padding: 1%;
+        box-shadow: 5px 5px 5px 5px beige;
+    }
+    .ingredient-list{
+        display: block;
+        width: 39%;
+        height: 25%;
+        padding: 4%;
+        box-shadow: 4px 4px 4px 4px rgb(201, 201, 183);
+        font-size: 130%;
+    }
+}
+
+.recipe-method{
+    display: block;
+    width: 80%;
+    padding: 5%;
+    margin-top: 1vh;
+    margin-left: 4.5vw;
+    box-shadow: 4px 4px 4px 4px rgb(201, 201, 183);
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.recipe-header{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Ms Madi';
+    font-size: 1.4rem;
+}
+
+.rating{
+    margin: 3vh 5vw;
+    font-size: 25pt;
+    .rating-stars{
+        margin-left: 2vw;
+        font-size: 30pt;
+        color: gold;
+    }
+}
+
+/* Media SCSS for Tablets */
+
+@media screen and (max-width: $tablet-size){
+    .recipe-container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+        width: 80%;
+        img{
+            width: 100%;
+        }
+        .ingredient-list{
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: $phone-size){
+    .recipe-container{
+        .ingredient-list{
+            font-size: 80%;
+            padding: 6%;
+        }
+        
+    }
+    .recipe-method{
+        font-size: 85%;
+    }
+}

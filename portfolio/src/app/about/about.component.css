@@ -1,0 +1,86 @@
+.header-pill{
+    width: 30%;
+    margin-left: 35%;
+    transition: .3s;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: rgb(78, 125, 255);
+}
+.header-pill:hover{
+    transform: scale(1.05);
+}
+
+.about-me-box{
+    background-color: rgb(78, 125, 255);
+    border-radius: 10%;
+}
+
+.about-me-text{
+    transition: .3s;
+    padding: 10%;
+}
+.about-me-text:hover{
+    scale: 1.05;
+}
+
+.myimg{
+    transition: .3s;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.myimg:hover{
+    border-radius: 25%;
+    transform: scale(1.05);
+}
+
+.my-rating{
+    margin: 100px;
+}
+
+.pill{
+    transition: .3s;
+    padding: 20px 20px;
+    border-radius: 50px;
+    background-color: rgb(78, 125, 255);
+}
+
+#sql{
+    width: 90%;
+    height: 10px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#html{
+    width: 92%;
+    height: 10px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#css{
+    width: 88%;
+    height: 10px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#js{
+    width: 75%;
+    height: 10px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#ng{
+    width: 60%;
+    height: 10px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+}

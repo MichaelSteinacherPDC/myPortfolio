@@ -1,0 +1,74 @@
+var taskJSON = `[
+    {
+        "name": "Learning",
+        "description": "Learn how to center divs.",
+        "priority": 0,
+        "date": "1.10.2022",
+        "image": "learning.jpg",
+        "duration": "01:45"
+    },
+    {
+        "name": "Swimming",
+        "description": "Go swimming with Marcel",
+        "priority": 0,
+        "date": "4.10.2022",
+        "image": "swimming.jpg",
+        "duration": "02:00"
+    },
+    {
+        "name": "Play Videogames",
+        "description": "Tetris if possible",
+        "priority": 0,
+        "date": "7.10.2022",
+        "image": "videogames.jpg",
+        "duration": "01:30"
+    },
+    {
+        "name": "Get groceries",
+        "description": "GET MILK!",
+        "priority": 0,
+        "date": "07.10.2022",
+        "image": "grocery.jpg",
+        "duration": "01:00"
+    },
+    {
+        "name": "Physical Exercise",
+        "description": "Give it your all!",
+        "priority": 0,
+        "date": "10.10.2022",
+        "image": "gym.jpg",
+        "duration": "01:45"
+    },
+    {
+        "name": "Garden Work",
+        "description": "Cut the tree down.",
+        "priority": 0,
+        "date": "10.10.2022",
+        "image": "garden.jpg",
+        "duration": "00:30"
+    },
+    {
+        "name": "Do Chores",
+        "description": "Seperate black and white laundry",
+        "priority": 0,
+        "date": "10.10.2022",
+        "image": "chores.jpg",
+        "duration": "01:30"
+    },
+    {
+        "name": "Meet with friends",
+        "description": "Don't forget the gifts",
+        "priority": 0,
+        "date": "10.10.2022",
+        "image": "friends.jpg",
+        "duration": "05:00"
+    },
+    {
+        "name": "Reading",
+        "description": "Based on a true Story if possible",
+        "priority": 0,
+        "date": "10.10.2022",
+        "image": "reading.jpg",
+        "duration": "01:00"
+    }
+]`;

@@ -1,0 +1,68 @@
+/* FOOTER FOR ALL PAGES */
+
+footer{
+    margin-top: 5%;
+    background-color: $footer-bg;
+    color: black;
+    text-align: center;
+    padding: 1rem 20% 1rem 20%;
+}
+.footer-nav{    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    li{
+        a{
+            color:black;
+            text-decoration: none;
+            &:hover{
+                transition: 1s;
+                color: rgb(112, 112, 112);
+            }
+        }
+    }
+}
+
+
+.footer-nav-2{
+    @extend .footer-nav;
+    padding: 1rem 23% 0 23%;
+}
+
+/* Media SCSS for Phones */
+
+@media screen and (max-width: $phone-size){
+    .footer-nav{
+        li{
+            a{
+                font-size: 70%;
+            }
+        }
+    }
+    footer{
+        div{
+            p{
+                font-size: 8pt;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $tablet-size){
+    .footer-nav{
+        li{
+            a{
+                font-size: 80%;
+            }
+        }
+    }
+    footer{
+        div{
+            p{
+                font-size: 90%;
+            }
+        }
+    }
+}
